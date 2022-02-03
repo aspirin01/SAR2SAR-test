@@ -3,7 +3,7 @@
 Open a colab notebook:
 And run the following commands
 ```
-!git clone https://github.com/aspirin01/sar-project.git
+!git clone https://github.com/aspirin01/SAR2SAR-test.git
 ```
 ```
 !pip uninstall -y tensorflow
