@@ -22,12 +22,13 @@ And run the following commands
 
 ```
 import numpy as np
-from PIL import Image                                                                                
+from PIL import Image                                         
+#Enter image path
 img = Image.open( '/content/SAR2SAR-test/test_data/sample.jpg' )
 img = img.convert("L")
 data = np.array( img)
-#Convert the new npy file to png
-np.save( '/content/sample.npy', data)
+#Convert the new npy file to png and save it in the directory used for running the despeckling algorithm
+np.save( '/content/SAR2SAR-test/test_data/sample5.npy', data)
 print(" was saved")
 print(data.shape)
 
